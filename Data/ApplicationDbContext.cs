@@ -9,4 +9,5 @@ public class ApplicationDbContext : IdentityDbContext
         : base(options)
     {
     }
+    public DbSet<grupo_rojo_repository.Models.Producto> DataProducto {get; set; }
 }
