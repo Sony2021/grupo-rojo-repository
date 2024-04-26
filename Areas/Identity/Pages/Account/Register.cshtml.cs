@@ -18,6 +18,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.WebUtilities;
 using Microsoft.Extensions.Logging;
+using Microsoft.Identity.Client;
 
 namespace grupo_rojo_repository.Areas.Identity.Pages.Account
 {
@@ -43,6 +44,13 @@ namespace grupo_rojo_repository.Areas.Identity.Pages.Account
             _signInManager = signInManager;
             _logger = logger;
             _emailSender = emailSender;
+        }
+
+        public class ApplicationUser : IdentityUser{
+            public string Nombre { get; set; }
+            public string Apellido { get; set; }
+            public string Documento { get; set; }
+            public string Domicilio { get; set; }
         }
 
         /// <summary>
@@ -97,6 +105,22 @@ namespace grupo_rojo_repository.Areas.Identity.Pages.Account
             [Display(Name = "Confirm password")]
             [Compare("Password", ErrorMessage = "The password and confirmation password do not match.")]
             public string ConfirmPassword { get; set; }
+
+            [Required]
+            [Display(Name ="Nombre")]
+            public string Nombre { get; set; }
+
+            [Required]
+            [Display(Name ="Apellido")]
+            public string Apellido { get; set; }
+
+            [Required]
+            [Display(Name ="Documento")]
+            public string Documento { get; set; }
+
+            [Required]
+            [Display(Name ="Domicilio")]
+            public string Domicilio { get; set; }
         }
 
 
@@ -158,12 +182,12 @@ namespace grupo_rojo_repository.Areas.Identity.Pages.Account
         {
             try
             {
-                return Activator.CreateInstance<IdentityUser>();
+                return Activator.CreateInstance<ApplicationUser>();
             }
             catch
             {
-                throw new InvalidOperationException($"Can't create an instance of '{nameof(IdentityUser)}'. " +
-                    $"Ensure that '{nameof(IdentityUser)}' is not an abstract class and has a parameterless constructor, or alternatively " +
+                throw new InvalidOperationException($"Can't create an instance of '{nameof(ApplicationUser)}'. " +
+                    $"Ensure that '{nameof(ApplicationUser)}' is not an abstract class and has a parameterless constructor, or alternatively " +
                     $"override the register page in /Areas/Identity/Pages/Account/Register.cshtml");
             }
         }
