@@ -15,7 +15,7 @@ ViewData["Title"] = "Catalogo";
                         <h5 class="card-title">@producto.Articulo</h5>
                         <p>Precio: @producto.Precio</p>
                         <a class="btn btn-primary" asp-action="Add" asp-route-id="@producto.Id">Agregar al Carrito</a>
-                        <a class="btn btn-primary" asp-action="VerProducto" asp-route-id="@producto.Id">Ver Producto</a>
+                        <a class="btn btn-primary" asp-action="Details" asp-route-id="@producto.Id">Ver Producto</a>
                     </div>
                 </div>
             </div>
