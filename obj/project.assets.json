@@ -8359,19 +8359,21 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ACER\\.nuget\\packages\\": {}
+    "C:\\Users\\User\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\.net\\trabajo\\grupo-rojo-repository\\grupo-rojo-repository.csproj",
+
+      "projectUniqueName": "c:\\Users\\User\\Desktop\\2X94\\grupo-rojo-repository\\grupo-rojo-repository.csproj",
       "projectName": "grupo-rojo-repository",
-      "projectPath": "C:\\.net\\trabajo\\grupo-rojo-repository\\grupo-rojo-repository.csproj",
-      "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
-      "outputPath": "C:\\.net\\trabajo\\grupo-rojo-repository\\obj\\",
+      "projectPath": "c:\\Users\\User\\Desktop\\2X94\\grupo-rojo-repository\\grupo-rojo-repository.csproj",
+      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+      "outputPath": "c:\\Users\\User\\Desktop\\2X94\\grupo-rojo-repository\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\ACER\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
+
       ],
       "originalTargetFrameworks": [
         "net8.0"
