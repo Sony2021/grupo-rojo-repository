@@ -11,6 +11,7 @@ namespace grupo_rojo_repository.Data;
         {
         }
         public DbSet<ApplicationUser> ApplicationUsers { get; set; }
+        public DbSet<grupo_rojo_repository.Models.Producto> DataProducto {get; set; }
     }
     
 
@@ -33,6 +34,5 @@ namespace grupo_rojo_repository.Data;
         public string? Domicilio { get; set; }
     }
 
-    public DbSet<grupo_rojo_repository.Models.Producto> DataProducto {get; set; }
-}
+    
 

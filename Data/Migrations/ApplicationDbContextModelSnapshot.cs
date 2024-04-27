@@ -339,6 +339,6 @@ namespace grupo_rojo_repository.Data.Migrations
                         .IsRequired();
                 });
 #pragma warning restore 612, 618
-        }
+        });
     }
-}
+}}
