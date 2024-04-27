@@ -1,5 +1,6 @@
 {
   "version": 2,
+
   "dgSpecHash": "SM7AIqnrgsRxeITLHmMPg+2VL0t0x5TXw6lLrxmnGRabnq/XgCIdD0w7W+OWk3iRpL6C1VDowklJ3jJLRPnUoQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\User\\Desktop\\2X94\\grupo-rojo-repository\\grupo-rojo-repository.csproj",
@@ -174,6 +175,7 @@
     "C:\\Users\\User\\.nuget\\packages\\system.threading.tasks.dataflow\\7.0.0\\system.threading.tasks.dataflow.7.0.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\system.windows.extensions\\7.0.0\\system.windows.extensions.7.0.0.nupkg.sha512"
+
   ],
   "logs": []
 }

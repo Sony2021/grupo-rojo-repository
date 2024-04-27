@@ -8364,6 +8364,7 @@
   "project": {
     "version": "1.0.0",
     "restore": {
+
       "projectUniqueName": "c:\\Users\\User\\Desktop\\2X94\\grupo-rojo-repository\\grupo-rojo-repository.csproj",
       "projectName": "grupo-rojo-repository",
       "projectPath": "c:\\Users\\User\\Desktop\\2X94\\grupo-rojo-repository\\grupo-rojo-repository.csproj",
@@ -8372,6 +8373,7 @@
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
+
       ],
       "originalTargetFrameworks": [
         "net8.0"
