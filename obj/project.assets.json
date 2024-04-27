@@ -8359,19 +8359,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Sony\\.nuget\\packages\\": {}
+    "C:\\Users\\ACER\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Sony\\Desktop\\codigoVS\\grupo-rojo-repository\\grupo-rojo-repository.csproj",
+      "projectUniqueName": "C:\\.net\\trabajo\\grupo-rojo-repository\\grupo-rojo-repository.csproj",
       "projectName": "grupo-rojo-repository",
-      "projectPath": "C:\\Users\\Sony\\Desktop\\codigoVS\\grupo-rojo-repository\\grupo-rojo-repository.csproj",
-      "packagesPath": "C:\\Users\\Sony\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Sony\\Desktop\\codigoVS\\grupo-rojo-repository\\obj\\",
+      "projectPath": "C:\\.net\\trabajo\\grupo-rojo-repository\\grupo-rojo-repository.csproj",
+      "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
+      "outputPath": "C:\\.net\\trabajo\\grupo-rojo-repository\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Sony\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\ACER\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -8450,7 +8450,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.201/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
