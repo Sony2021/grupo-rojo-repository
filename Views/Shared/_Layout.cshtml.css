@@ -27,7 +27,7 @@ a {
   border-top: 1px solid #e5e5e5;
 }
 .border-bottom {
-  border-bottom: 1px solid #e5e5e5;
+  border-bottom: 1px solid #091c70;
 }
 
 .box-shadow {
@@ -45,4 +45,50 @@ button.accept-policy {
   width: 100%;
   white-space: nowrap;
   line-height: 60px;
+ 
+}
+
+
+.text-center{
+  text-align: center;
+}
+
+.fs-1 {
+  font-size: 2.5rem; /* Adjust font size as desired */
+}
+
+
+.navbar-brand {
+  display: grid;
+  grid-template-columns: auto minmax(content, 100px); /* Define grid columns */
+  align-items: center;
+}
+
+.navbar-brand img {
+  grid-column: 1; /* Place image in first column */
+  max-height: 50px;
+}
+
+.navbar-brand span {
+  grid-column: 2; /* Place text in second column */
+}
+
+.navbar-brand p {
+  font-size: 0.8rem; /* Adjust font size as desired */
+  color: #801f1f; /* Adjust color as needed */
+  margin-top: 5px; /* Add space above the message */
+}
+
+.logo-container {
+  display: flex; /* Enable flexbox layout */
+  align-items: center; /* Align items vertically */
+}
+
+.logo-container span {
+  flex-grow: 1; /* Allow text to expand horizontally */
+  margin-right: 10px; /* Add space between text and message */
+}
+
+.logo-container p {
+  margin-left: 0; /* Remove default margin-left */
 }

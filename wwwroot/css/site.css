@@ -20,3 +20,106 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+.d-item{
+  height: 600px; /* Ajuste la altura según su preferencia */
+  overflow: hidden; /* Ocultar el exceso de contenido vertical */
+  display: flex; /* Habilitar flexbox para posicionamiento vertical */
+  justify-content: flex-end; /* Alinear el contenido en la parte inferior */
+  align-items: flex-end; /* Alinear el contenido en la parte inferior */
+}
+
+.d-img{
+  max-height: 100%; /* Permitir que la imagen se ajuste a la altura del contenedor */
+  object-fit: cover; /* Cubrir toda el área disponible sin distorsión */
+}
+
+.text-center {
+  text-align: center;
+}
+
+h1.display-4.text-center {
+  font-family: 'Montserrat', sans-serif; /* Example font */
+  font-size: 2.8rem;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  line-height: 1.8;
+  ;
+}
+
+h1.display-4.text-center {
+  color: #03223e;
+  background-color: #F0F0F0;
+}
+
+h1.display-4.text-center {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 768px) {
+  h1.display-4.text-center {
+    font-size: 2rem;
+    line-height: 1.5;
+  }
+}
+
+.navbar-brand {
+  display: grid;
+  grid-template-columns: auto minmax(content, 100px); /* Define grid columns */
+  align-items: center;
+}
+
+.navbar-brand img {
+  grid-column: 1; /* Place image in first column */
+  max-height: 50px;
+}
+
+.navbar-brand span {
+  grid-column: 2; /* Place text in second column */
+}
+.navbar-container {
+  display: flex; /* Enable flexbox layout */
+  justify-content: center; /* Horizontally center content */
+  align-items: center; /* Vertically center content (optional) */
+}
+.navbar-nav { /* Assuming this is the parent container */
+  display: flex; /* Enable flexbox layout */
+}
+.nav-item a {
+  text-align: center; /* Center text within list items */
+  flex-grow: 10;
+}
+
+.footer {
+  display: flex; /* Enable flexbox layout */
+  justify-content: center; /* Horizontally center content */
+  align-items: center; /* Vertically center content (optional) */
+}
+
+
+.top-footer {
+  background-color: #191a29; /* Dark navy blue background */
+  color: #fff; /* White text color */
+  padding: 20px; /* Add some padding for spacing */
+  text-align: center; /* Center the text within the section */
+}
+
+.bottom-footer {
+  background-color: #191a29; /* Dark navy blue background */
+  color: #ffd700; /* Gold text color */
+  padding: 10px; /* Adjust padding as needed */
+  text-align: center; /* Center the text within the section */
+}
+
+head {
+  background-color: #191a29; /* Dark navy blue background */
+  color: #ffd700; /* Gold text color (default for most elements) */
+}
+
+title {
+  color: #fff; /* White text color for page title */
+}
+
+
+
+
